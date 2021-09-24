@@ -1,0 +1,52 @@
+<ion-view title="Business dashboard" id="businessDashboard">
+  <ion-nav-bar class="bar-stable nav-title-slide-ios7">
+    <ion-nav-buttons side="left">
+      <button class="button button-clear" ng-click="myGoBack()" >
+      <i class="icon ion-ios-arrow-back"></i>
+      Буцах</button>
+    </ion-nav-buttons>
+       <ion-nav-buttons side="right">
+          <button ui-sref="businessdashboard()" class="button button-clear" ng-click="myGoBack()" >
+          <i class="fa fa-plus" aria-hidden="true"></i>
+          </button>
+      </ion-nav-buttons> 
+  </ion-nav-bar>
+
+  <ion-content padding="true" class="has-header">
+    
+      <div class="card">
+        <div class="item" style="padding:0px">
+          <div class="row">
+            <div class="col col-25"><img ng-src="http://i0.kym-cdn.com/entries/icons/facebook/000/004/391/KFC.jpg" alt="" style="height:70px; border:1px solid black"/></div>
+            <div class="col col-75">
+              <p style="font-weight: bold; font-size: 14px;">KFC хүүхдийн 100</p>
+              <div class="rating">
+                <i class="fa fa-star" style="color: #4080FF" aria-hidden="true"></i>
+                <i class="fa fa-star" style="color: #4080FF" aria-hidden="true"></i>
+                <i class="fa fa-star" style="color: #4080FF" aria-hidden="true"></i>
+                <i class="fa fa-star" style="color: #4080FF" aria-hidden="true"></i>
+                <i class="fa fa-star" style="color: #4080FF" aria-hidden="true"></i>
+              </div>
+
+              <div class="row">
+                <div class="col col-50 col-offset-50">
+                  <button style="padding-right: 5px; padding-left: 5px;" class="button button-small  button-positive">
+                    Харах
+                  </button>
+                   <button style="padding-right: 5px; padding-left: 5px;" class="button button-small button-assertive">
+                    Засах
+                  </button>
+                </div>
+                  
+                 
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+  </ion-content>
+</ion-view>

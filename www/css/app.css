@@ -1,0 +1,18 @@
+.btn-center {
+    text-align: center;
+    width: 100%;
+}
+
+.auth-button {
+    margin-top: 10px;
+    
+}
+
+.bus-item-header {
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.img-circle {
+    border-radius: 50%;
+}

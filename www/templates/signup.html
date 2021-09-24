@@ -1,0 +1,30 @@
+<ion-view title="Signup" id="page8">
+  <ion-content padding="true" style="background: url(img/ZVuCAk6ETCS6sYzxJymN_craig-whitehead-260310.jpg) no-repeat center;background-size:cover;" scroll="false" class="has-header">
+    <form id="signup-form4" class="list" ng-submit="Signup(user)">
+      <ion-list id="signup-list4">
+        <label class="item item-input" id="signup-input8">
+          <span class="input-label">Name</span>
+          <input type="text" placeholder="" ng-model="user.name">
+        </label>
+        <label class="item item-input" id="signup-input9">
+          <span class="input-label">Email</span>
+          <input type="email" placeholder="" ng-model="user.email">
+        </label>
+        <label class="item item-input" id="signup-input10">
+          <span class="input-label">Password</span>
+          <input type="password" placeholder="" ng-model="user.password">
+        </label>
+        <label class="item item-input item-select">
+            <div class="input-label">
+              Type: 
+            </div>
+            <select>
+              <option value="1">User</option>
+              <option value="2">Business</option>
+            </select>
+          </label>
+      </ion-list>
+      <button id="signup-button6" class="button button-positive button-block">Sign up</button>
+    </form>
+  </ion-content>
+</ion-view>

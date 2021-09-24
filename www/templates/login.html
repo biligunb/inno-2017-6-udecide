@@ -1,0 +1,36 @@
+<ion-view title="Login" id="page7">
+
+  <ion-nav-bar class="bar-stable nav-title-slide-ios7">
+    <ion-nav-buttons side="left">
+      <button class="button button-clear" ng-click="myGoBack()" >
+      <i class="icon ion-ios-arrow-back"></i>
+      Back</button>
+    </ion-nav-buttons>
+      <!-- <ion-nav-buttons side="right">
+          <button class="button button-clear button-positive" ng-click="reset()">
+              Refresh
+          </button>
+      </ion-nav-buttons> -->
+  </ion-nav-bar>
+    
+  <ion-content padding="true" style="background: url(img/loginImage.jpg) no-repeat center;background-size:cover;" scroll="false" class="has-header">
+    
+    <form id="login-form3" class="list" ng-submit="Login(user)">
+      <ion-list id="login-list3">
+        <label class="item item-input" id="login-input6">
+          <span class="input-label">Email</span>
+          <input type="email" placeholder="" ng-model="user.email">
+        </label>
+        <label class="item item-input" id="login-input7">
+          <span class="input-label">Password</span>
+          <input type="password" placeholder="" ng-model="user.password">
+        </label>
+        
+      </ion-list>
+      <div class="spacer" style="height: 40px;"></div>
+      <button id="login-button4" class="button button-positive button-block">Log in</button>
+      <a href-inappbrowser="/signup" id="login-button5" class="button button-positive button-block button-clear">Or create an account</a>
+    </form>
+
+  </ion-content>
+</ion-view>
